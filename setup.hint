@@ -1,0 +1,6 @@
+category: Scheme Gnome Audio
+requires: cygwin g-wrap libguile17 guile-gnome0-gobject glib2 gstreamer010
+sdesc: "Guile GNOME library bindings (GStreamer 0.10 bindings)"
+ldesc: "guile-gnome is a Guile wrapper collection for the GNOME library 
+stack. It ships with an wrapper engine that allows semi-automatic 
+wrapping of GObject-based C APIs."

@@ -1,0 +1,81 @@
+guile-gnome0-gstreamer
+------------------------------------------
+guile-gnome is a Guile wrapper collection for the GNOME library
+stack. It ships with an wrapper engine that allows semi-automatic
+wrapping of GObject-based C APIs.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  g-wrap-1.9.9-1
+  glib2-2.12.13-1
+  gstreamer010-0.10.14-1
+  guile-gnome0-gobject-2.15.94-1
+  libguile17-1.8.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gnu.org/software/guile-gnome/
+
+Canonical download:
+  http://ftp.gnu.org/pub/gnu/guile-gnome/guile-gnome-gstreamer/
+
+-------------------------------------------
+
+Build instructions:
+  unpack guile-gnome0-gstreamer-0.9.91-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./guile-gnome0-gstreamer-0.9.91-X.cygport all
+
+This will create:
+  /usr/src/guile-gnome0-gstreamer-0.9.91-X-src.tar.bz2
+  /usr/src/guile-gnome0-gstreamer-0.9.91-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/guile-gnome-0/cyggw-guile-gnome-gstreamer.dll
+  /usr/lib/guile-gnome-0/libgw-guile-gnome-gstreamer.la
+  /usr/lib/pkgconfig/guile-gnome-gstreamer-0.pc
+  /usr/share/doc/Cygwin/guile-gnome0-gstreamer-0.9.91.README
+  /usr/share/doc/guile-gnome0-gstreamer-0.9.91/AUTHORS
+  /usr/share/doc/guile-gnome0-gstreamer-0.9.91/COPYING
+  /usr/share/doc/guile-gnome0-gstreamer-0.9.91/ChangeLog
+  /usr/share/doc/guile-gnome0-gstreamer-0.9.91/HACKING
+  /usr/share/doc/guile-gnome0-gstreamer-0.9.91/INSTALL
+  /usr/share/doc/guile-gnome0-gstreamer-0.9.91/NEWS
+  /usr/share/doc/guile-gnome0-gstreamer-0.9.91/README
+  /usr/share/guile-gnome-0/gnome/defs/gstreamer-types.defs
+  /usr/share/guile-gnome-0/gnome/defs/gstreamer.defs
+  /usr/share/guile-gnome-0/gnome/gstreamer.scm
+  /usr/share/guile-gnome-0/gnome/gstreamer/debug.scm
+  /usr/share/guile-gnome-0/gnome/gw/gstreamer-spec.scm
+  /usr/share/guile-gnome-0/gnome/gw/gstreamer.scm
+  /usr/share/guile-gnome-0/gnome/overrides/gstreamer.defs
+  /usr/share/guile-gnome-0/gnome/overrides/gstreamer.defs-type-ignores
+
+------------------
+
+Port Notes:
+
+----- version 0.9.91-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
